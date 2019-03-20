@@ -1,13 +1,23 @@
 package com.example.trofeo.abstractfactorypattern;
 
-public class Slice implements Bread{
+public class Slice extends Bread{
     @Override
     public String name() {
         return "Pan de molde";
     }
 
     @Override
-    public String calories() {
-        return ":80kcal";
+    public int calories() {
+        return 80;
+    }
+
+    @Override
+    public String description() {
+        return null;
+    }
+
+    @Override
+    public String image() {
+        return null;
     }
 }
