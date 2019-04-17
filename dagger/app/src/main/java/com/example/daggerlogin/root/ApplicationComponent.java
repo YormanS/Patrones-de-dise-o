@@ -1,4 +1,6 @@
-package com.example.daggerlogin;
+package com.example.daggerlogin.root;
+
+import com.example.daggerlogin.MainActivity;
 
 import javax.inject.Singleton;
 

@@ -1,6 +1,8 @@
-package com.example.daggerlogin;
+package com.example.daggerlogin.root;
 
 import android.app.Application;
+
+import com.example.daggerlogin.DaggerApplicationComponent;
 
 public class App extends Application {
 
